@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ProjectPhysalis</title>
+    <title>Unity WebGL Player | Trap The Cat</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,20 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ProjectPhysalis</div>
+        <div id="unity-build-title">Trap The Cat</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/CatsDemoCarga.loader.js";
       var config = {
-        dataUrl: buildUrl + "/CatsDemoCarga.data.br",
-        frameworkUrl: buildUrl + "/CatsDemoCarga.framework.js.br",
-        codeUrl: buildUrl + "/CatsDemoCarga.wasm.br",
+        dataUrl: buildUrl + "/CatsDemoCarga.data.gz",
+        frameworkUrl: buildUrl + "/CatsDemoCarga.framework.js.gz",
+        codeUrl: buildUrl + "/CatsDemoCarga.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ProjectPhysalis",
-        productName: "ProjectPhysalis",
-        productVersion: "1.0",
+        productName: "Trap The Cat",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
@@ -53,8 +53,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
